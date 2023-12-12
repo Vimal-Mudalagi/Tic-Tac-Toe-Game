@@ -4,14 +4,14 @@
 }
 
 body {
-    background-color: #eea1cd;
+    background-color: #0aff99;
     text-align: center;
     height: 100%;
 }
 
 h1 {
     font-size: 5rem;
-    font-weight: 600;
+    font-weight: 300;
     color: #1640D6;
 }
 
@@ -37,14 +37,19 @@ h1 {
 .box {
     height: 18vmin;
     width: 18vmin;
-    background-color: #fde4f2;
+    background-color: #deff0a;
     border: none;
     border-radius: 2rem;
-    box-shadow: 0 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 20px 0px rgba(0, 205, 0, 0.7);
     font-size: 8vmin;
     color: #1640D6;
 }
-
+.box:hover{
+    cursor: pointer;
+    transform: translateY(3px);
+    background-color: #ffd300;
+    
+}
 #reset-btn {
     padding: 1rem;
     font-size: 2rem;
@@ -53,7 +58,7 @@ h1 {
     font-weight: 800;
     border: none;
     border-radius: 2rem;
-    box-shadow: 0 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 20px 0px rgba(0, 205, 0, 0.7);
     font-size: 8vmin;
 
 }
@@ -62,7 +67,7 @@ h1 {
     cursor: pointer;
     transition-duration: 0.4s;
     background-color: #f04c90;
-    transform: translateY(5px);
+    transform: translateY(4px);
 }
 
 #new-btn {
@@ -74,7 +79,7 @@ h1 {
     font-weight: 800;
     border: none;
     border-radius: 2rem;
-    box-shadow: 0 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 20px 0px rgba(0, 205, 0, 0.7);
     font-size: 8vmin;
 
 }
@@ -83,7 +88,7 @@ h1 {
     cursor: pointer;
     transition-duration: 0.4s;
     background-color: #f04c90;
-    transform: translateY(5px);
+    transform: translateY(4px);
 }
 
 #msg {
